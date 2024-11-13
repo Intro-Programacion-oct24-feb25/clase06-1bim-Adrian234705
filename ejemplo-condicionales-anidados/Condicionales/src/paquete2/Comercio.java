@@ -59,7 +59,7 @@ public class Comercio {
                 bono = 50;
             }else{
                 if (productividad>=80 && productividad < 200) {
-                    bono = 100;
+                    bono =   100;
                 }else{
                     if(productividad >= 200){
                         bono = 200;
