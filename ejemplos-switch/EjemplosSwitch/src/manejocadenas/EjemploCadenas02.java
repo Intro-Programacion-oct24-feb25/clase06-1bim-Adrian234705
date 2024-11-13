@@ -41,7 +41,8 @@ public class EjemploCadenas02 {
                 cadenaFinal, 
                 pais);
         
-        System.out.printf("%s", cadenaFinal);
+        System.out.printf("%s", cadenaFinal); 
+        // el string format es para acumular una variable en tipo cadena 
         
     }
 }
