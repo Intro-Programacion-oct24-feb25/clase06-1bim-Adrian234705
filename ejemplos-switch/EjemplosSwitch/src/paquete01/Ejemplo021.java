@@ -74,6 +74,13 @@ public class Ejemplo021 {
             default:
                 System.out.println("Vales vrg intentalo otra vez");
                 break;
+        
+            System.out.printf("Usted a nacido el %d de %s del año %d" 
+                ,diaNacimiento, 
+                mesCadena,
+                yearNacimiento ) ; 
+        
+        
         }
 
     }

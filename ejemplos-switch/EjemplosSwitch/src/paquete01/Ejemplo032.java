@@ -15,7 +15,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo03 {
+public class Ejemplo032 {
 
     /**
      * @param args the command line arguments
@@ -28,40 +28,26 @@ public class Ejemplo03 {
         System.out.println("Ingrese el nombre de una ciudad del Ecuador");
         String nombre = entrada.nextLine();
         // nombre = "atacames"
+        nombre = nombre .toLowerCase(); 
         char valor = nombre.charAt(0); // obtener el primer caracter de una
                                        // cadena
         //  L   o   j   a
         //  0   1   2   3
         switch(valor){
             case 'a':
-            case'A':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':    
+    
                 System.out.printf("Nombre con inicial %s de %s\n", 
                         valor, nombre.toLowerCase());
                 break;
             
-            case 'e':
-            case 'E':
-                System.out.printf("Nombre con inicial %s de %s\n", 
-                        valor, nombre.toLowerCase());
-                break;    
-             
-            case 'i':
-            case 'I':
-                System.out.printf("Nombre con inicial %s de %s\n", 
-                        valor, nombre.toLowerCase());
-                break;    
             
-            case 'o':
-            case 'O':
-                System.out.printf("Nombre con inicial %s de %s\n", 
-                        valor, nombre.toLowerCase());
-                break;     
-            
-            case 'u':
-            case 'U':
-                System.out.printf("Nombre con inicial %s de %s\n", 
-                        valor, nombre.toLowerCase());
-                break;    
+           
+
+
             
             default:
                 System.out.println("opción incorrecta; ninguna de las "
